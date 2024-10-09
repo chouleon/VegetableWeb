@@ -1,0 +1,197 @@
+html {
+	background-color: #EDF2C5;
+	box-sizing: border-box;
+}
+
+*,*:before,*:after {
+	box-sizing: inherit
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	padding-top: 36px;
+	padding-bottom: 44px;
+	font-weight: 900;
+	color:#778A50;
+}
+
+.btn {
+	display: flex;
+	width: 1122px;
+	height: 62px;
+	margin: auto;
+}
+
+.header-title {
+	width: 253px;
+	height: 60px;
+	margin-top: auto;
+	font-size: 44px;
+}
+
+.btn-group {
+	display: flex;
+	width: 208px;
+	height: 24px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	flex-direction: row;
+}
+
+.group-fb {
+	width: 24px;
+	height: 24px;
+}
+
+.group-ig {
+	width: 24px;
+	height: 24px;
+	margin-left: 12px;
+}
+
+.group-line {
+	border-left: 1px solid #778A50;
+	margin-left: 12px;
+}
+
+.group-login{
+	width: 62px;
+	height: 27px;
+	font-size: 14px;
+	padding: 4px 8px;
+	font-weight: 700;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+	margin-left: 11px;
+}
+
+.group-join{
+	width: 49px;
+	height: 27px;
+	font-size: 14px;
+	padding: 4px 8px;
+	font-weight: 700;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+	margin-left: 13px;
+}
+
+.group-link {
+	display: block;
+	color: #778A50;
+	text-decoration: none;
+}
+
+.nav {
+	margin: auto;
+	width: 1120px;
+	height: 44px;
+	background-color: #778A50;
+	border-radius: 3px;
+}
+
+.nav-list {
+	list-style: none;
+	display: flex;
+	padding: 0;
+}
+
+
+.nav-link {
+	display: block;
+	font-size: 16px;
+	color: #EDF2C5;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+.pumpkin {
+	width: 1120px;
+	height: 448px;
+	margin: auto;
+}
+
+.bottom {
+	display: flex;
+	flex-direction: row;
+	width: 1120px;
+	margin-top: 32px;
+	margin-bottom: 201px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottom div{
+	width: 528px;
+	margin-left: 0%;
+	margin-right: 64px;
+}
+
+.vegetables h2{
+	background-color: #778A50;
+	color:#EDF2C5;
+	height: 45px;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 10px 30px;
+	margin-top: 0%;
+	line-height: 150%;
+}
+
+.veggies {
+	display: flex;
+	width: 528px;
+	height: 140px;
+	justify-content: space-between;
+}
+
+.veggies img{
+	width: 165px;
+	height: 140px;
+}
+
+.contact h2{
+	background-color: #778A50;
+	color:#EDF2C5;
+	height: 45px;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 10px 30px;
+	margin-top: 0%;
+	line-height: 150%;
+}
+.content {
+	background-color: #F7FBDA;
+	height: 140px;
+	padding: 16px;
+}
+
+.content-line {
+	border-top: 1px solid #7D7D7D;
+	width: 496px;
+}
+
+.content p{
+	color: #7D7D7D;
+	font-size: 12px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #778A50;
+	color:#EDF2C5;
+	font-size: 12px;
+	width: 100%;
+	height: 60px;
+	border-radius: 3px;
+	border-top: 964px;
+	margin: auto;
+	padding-top: 12px;
+}
